@@ -11,7 +11,7 @@ pip install os-android-adb-handler
 ```
 
 ## Usage and examples:       
-Make sure you have [adb]('https://developer.android.com/studio/command-line/adb) installed and an Android device connected.   
+Make sure you have [adb](https://developer.android.com/studio/command-line/adb) installed and an Android device connected.   
 
 Just import the module and use it like so:
 
