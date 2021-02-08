@@ -60,7 +60,7 @@ adb_handler.key_event(key_events.KEYCODE_DEL)
 adb_handler.uninstall_app(package_name='com.osapps.pacakge')
 ```
 
-#Function signatures
+# Function signatures
 ```python
 def start_app(package_name, path_to_first_activity):
     """
