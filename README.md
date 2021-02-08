@@ -10,7 +10,7 @@ Install via pip:
 pip install os-android-adb-handler
 ```
 
-## Usage and examples:       
+# Usage and examples:       
 * Make sure you have [adb](https://developer.android.com/studio/command-line/adb) installed and an Android device connected.   
 
 Then just import the module and use it like so:
@@ -60,7 +60,7 @@ adb_handler.key_event(key_events.KEYCODE_DEL)
 adb_handler.uninstall_app(package_name='com.osapps.pacakge')
 ```
 
-# Function signatures
+## Function signatures
 ```python
 def start_app(package_name, path_to_first_activity):
     """
